@@ -1,6 +1,6 @@
  # Privacy Policy
                                                                                                                                                                                                                  
-  **Effective: 2026-05-15**                                 
+  **Effective: 2026-05-27**                                 
 
   Spindle is a vinyl-collection and listening tracker built by Mike                                                                                                                                              
   Warner. This policy describes what data Spindle collects, how it's
@@ -43,6 +43,25 @@
   - **Discogs** is connected via OAuth when you import your 
     collection. Discogs tokens are stored only on the device that                                                                                                                                                
     authorized them — they're never synced to our servers.  
+  - **PostHog** is our product analytics provider. We send a small
+    set of typed product events (taps, screen transitions, completed
+    spins) associated with your Spindle account ID so we can
+    understand how Spindle is used and where it can improve. No
+    email, display name, handle, search text, caption text, or other
+    personal content is sent. See PostHog's privacy policy at
+    https://posthog.com/privacy.
+  - **Sentry** is our crash and error reporting provider. When the
+    app crashes or hits an unexpected error, we send a diagnostic
+    report (stack trace, app version, device model, OS version, and
+    your Spindle account ID). Sensitive values like tokens, note
+    text, and search queries are scrubbed client-side before sending.
+    See Sentry's privacy policy at https://sentry.io/privacy.
+  - **Last.fm** is optionally connected via OAuth so the app can
+    scrobble completed spins to your Last.fm account. Last.fm
+    receives the artist, album, and track title of each scrobbled
+    spin plus the Last.fm username you authorized it with. Last.fm
+    is not contacted unless you explicitly connect your account. See
+    Last.fm's privacy policy at https://www.last.fm/legal/privacy.
                                                                                                                                                                                                                  
   We don't sell your data, don't share it with advertisers, and don't                                                                                                                                            
   use it for any purpose other than running Spindle.                                                                                                                                                             
