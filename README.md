@@ -44,7 +44,7 @@
     collection. Discogs tokens are stored only on the device that                                                                                                                                                
     authorized them — they're never synced to our servers.
 
-      - **PostHog** is our product analytics provider. We send a small set
+  - **PostHog** is our product analytics provider. We send a small set
     of typed product events (taps, screen transitions, completed spins)
     associated with your Spindle account ID so we can understand how
     Spindle is used and where it can improve. No email, display name,
