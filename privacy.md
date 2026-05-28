@@ -18,8 +18,10 @@
                                                                                                                                                                                                                  
   - **Account**: email address and a password hash. Used to sign you
     in and recover access.                                                                                                                                                                                       
-  - **Profile**: username, display name, optional bio, optional avatar                                                                                                                                           
-    image. Visible to other signed-in Spindle users.
+  - **Profile**: username, display name, and optional bio. Visible to
+    other signed-in Spindle users. If you've connected Discogs, your
+    Discogs profile photo is loaded directly from Discogs and shown
+    only to you — it is never uploaded to or stored on our servers.
   - **Your collection**: the records you've imported from Discogs                                                                                                                                                
     (album, artist, year, cover URL, format) plus any per-record
     customizations you've made in-app (vinyl color, design, etc.).                                                                                                                                               
@@ -31,9 +33,8 @@
     your optional public status note while spinning.
   - **Moderation activity**: reports you file and users you block.                                                                                                                                               
                                                                                                                                                                                                                  
-  Spindle does **not** collect device contacts, location, photos                                                                                                                                                 
-  (except an avatar you explicitly upload), or any third-party                                                                                                                                                   
-  tracking identifiers.                                                                                                                                                                                          
+  Spindle does **not** collect device contacts, location, photos,
+  or any third-party tracking identifiers.                                                                                                                                                                                          
    
   ## 2. Third-party services                                                                                                                                                                                     
                                                             
