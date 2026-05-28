@@ -82,10 +82,13 @@
                                                                                                                                                                                                                  
   ## 4. Data retention and deletion                                                                                                                                                                              
    
-  You can permanently delete your account from **Profile → Delete                                                                                                                                                
+  You can permanently delete your Spindle account from **Profile → Delete                                                                                                                                                
   Account** in the app. Deletion is immediate and cascades through
   the database — your records, spins, profile, comments, follows,                                                                                                                                                
-  likes, and any captions or status notes are removed atomically.                                                                                                                                                
+  likes, and any captions or status notes are removed atomically. Spindle keeps no
+  backup copy and applies no retention period — once deleted, your
+  data is gone. You can also delete individual spins and comments
+  at any time without deleting your account.                                                                                                                                                
                                                                                                                                                                                                                  
   You can hide individual records from your collection                                                                                                                                                           
   (**Album detail → Remove from Spindle**) without deleting your                                                                                                                                                 
